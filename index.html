@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vision Maze</title>
+  <link rel="icon" href="favicon-16x16.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+
+<body>
+    <header>
+        <span>Vision Maze</span>
+    </header>
+    <div class="wrapper">
+        <div class="containerEna">
+            <div id="canvasContainer"></div>
+        </div>
+
+        <div class="containerDva">
+            <div class="sideContainer">
+                <div class="header">
+                  <span>Score</span>
+                </div>
+                <div class="main">
+                  <div class="blockEna">
+                    <span id="steps">Steps:</span>
+                    <span id="time">Time:</span>
+                    <span id="highlights">Highlights:</span>
+                    <span id="mute">Mute:</span>
+                    <span id="trace">Trace:</span>
+                  </div>
+                </div>
+              </div>
+
+            <div class="sideContainer">
+                <div class="header">
+                  <span>How to play</span>
+                </div>
+                <div class="main">
+                  <div class="block">
+                    <span>Move with:</span>
+                    <img class="imgMove" src="img/arrows.png"/>
+                    <span>Highlight the map: SPACE</span>
+                    <span>Show trace: T</span>
+                    <span>Mute: M</span>
+                  </div>
+                  <div class="block">
+                    <div class="r">
+                      <img src="img/kroglicaModra.png"/><span>Bigger increase of vision circle</span>
+                    </div>
+                    <div class="r">
+                      <img src="img/kroglicaRumena.png" /><span>Increases vison circle</span>
+                    </div>
+                    <div class="r">
+                      <img src="img/kroglicaRdeca.png"/><span>reduces vison circle</span>
+                    </div>
+                    <div class="r">
+                      <img src="img/Highlights.png" style="transform: rotate(45deg);"/><span>points to highlight whole map</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>  
+    </div>  
+
+  <script src="js/p5.js"></script>
+  <script src="js/maze.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>
