@@ -1,0 +1,2 @@
+# Maze
+ School project maze
